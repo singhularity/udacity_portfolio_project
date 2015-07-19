@@ -1,13 +1,14 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(251, 252, 244);
     color: #747704;
 }
-.header{
+
+.header {
     margin-bottom: 0;
 }
 
-.logo_img{
+.logo-img {
     display: block;
     width: 125px;
     border: 2px solid white;
@@ -16,79 +17,80 @@ body{
     border-radius: 50%;
 }
 
-.name{
+.name {
     text-align: right;
 }
 
-.name h1{
+.name-h1 {
     font-weight: lighter;
     font-size: 50px;
     margin: 5px;
 }
 
-.name h4{
+.name-h4 {
     margin-top: 5px;
     font-size: 20px;
     font-weight: bolder;
 }
 
-.midsection img{
+.midsection-img {
     max-width: 100%;
 }
 
-.featured{
+.featured {
     margin-bottom: 0;
     color: #BCBBBB;
 }
 
-.featured_title h2{
+.featured_title_h2 {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: 'Lato', sans-serif;
 }
 
-.projects {
-    width: 100%;
-}
-
-.projects img{
+.projects-img {
     width: 100%;
     padding:10px;
 }
 
-.projects h3{
+.projects-h3 {
     text-align: center;
     margin-top: 0;
 }
 
-.projects a{
+.projects-a {
     text-decoration: none;
     color: #747704;
 }
 
-@media screen and (max-width: 600px){
-    .logo_img{
+@media screen and (max-width: 600px) {
+
+    .logo-img {
         width: 100px;
     }
-    .header h1{
+
+    .header h1 {
         font-size: x-large;
     }
 }
 
-@media screen and (min-width: 450px){
-    .project_item{
+@media screen and (min-width: 450px) {
+
+    .project_item {
         max-width: 100%;
     }
 }
 
-@media screen and (min-width: 451px) and (max-width: 750px){
-    .project_item{
+@media screen and (min-width: 451px) and (max-width: 750px) {
+
+    .project_item {
         max-width: 50%;
     }
 }
 
-@media screen and (min-width: 751px){
-    .project_item{
+@media screen and (min-width: 751px) {
+
+    .project_item {
         max-width: 33.3%;
     }
 }
